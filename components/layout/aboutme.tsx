@@ -18,6 +18,22 @@ export default function AboutMe() {
   const words = ["alternance", "opportunités", "aventures"];
   const [wordIndex, setWordIndex] = useState(0);
   const [delta, setDelta] = useState(200);
+  const handleAnchorClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string,
+  ) => {
+    e.preventDefault();
+
+    const targetId = href.replace("#", "");
+    const element = document.getElementById(targetId);
+
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
 
   useEffect(() => {
     let timer: NodeJS.Timeout;
@@ -82,26 +98,23 @@ export default function AboutMe() {
 
             </p>
           )}
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-1 justify-center md:justify-start mt-6 py-4">
-            <Button
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 justify-center md:justify-start mt-6 py-4">
+            <Link
               isExternal
               as={Link}
-              color="primary"
               href="mailto:alternance@thomas-fouquet.fr"
-              size="lg"
-              variant="shadow"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-white font-medium transition-all duration-200 hover:bg-primary-600 hover:scale-105"
             >
               Me contacter
-            </Button>
-            <Button
+            </Link>
+            <Link
               as={Link}
-              color="secondary"
               href="#projects"
-              size="lg"
-              variant="bordered"
+              onClick={(e) => handleAnchorClick(e, "#projects")}
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-secondary text-secondary font-medium transition-all duration-200 hover:bg-green-500 hover:border-none hover:text-white hover:scale-105"
             >
-              <p className="dark:text-white"> Voir mes projets</p>
-            </Button>
+              <p>Voir mes projets</p>
+            </Link>
           </div>
           {isSmallDevice && (
             <p className="text-lg text-default-600 p-4 leading-relaxed text-justify">
