@@ -78,7 +78,7 @@
                 "category": "Application WEB",
                 "description": "Hébergé sur un Raspberry Pi , ce portfolio est un site web de présentation de mes projets et compétences.",
                 "image": "portfolio_wb.png",
-                "githubLink": "http://github.com/weyrito/portfolio",
+                "githubLink": "http://github.com/weyrito/portfolio-thomas-fouquet",
                 "technologies": [
                     {
                         "name": "Next.js",
