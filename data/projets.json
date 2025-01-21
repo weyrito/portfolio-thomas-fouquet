@@ -1,0 +1,137 @@
+{
+    "projets": {
+        "projets": [
+            {
+                "title": "Fighting Beat",
+                "category": "Application WEB",
+                "description": "Dans le cadre d'un projet associatif, j'ai développé le site web du club de MMA Fighting Beat.",
+                "image": "fb_wb.png",
+                "demoLink": "https://fightingbeat.fr",
+                "technologies": [
+                    {
+                        "name": "PHP",
+                        "label": "Langage de programmation"
+                    },
+                    {
+                        "name": "Stripe API",
+                        "label": "API de paiement en ligne"
+                    },
+                    {
+                        "name": "Bootstrap",
+                        "label": "Framework CSS"
+                    }
+                    
+                ]
+            },
+            {
+                "title": "Tamagotchi Drive",
+                "category": "IOT",
+                "image": "tamagotchi_wb.jpeg",
+                "description": "Tamagotchi Drive est un projet de Tamagotchi développé en C++. Il est possible de conduire sa voiture et de participer à une course contre la montre pour gagner de l'argent afin laver sa voiture et d'acheter de l'essence.",
+                "technologies": [
+                    {
+                        "name": "Arduino",
+                        "label": "Langage de programmation"
+                    },
+                    {
+                        "name": "C/C++",
+                        "label": "Langage de programmation"
+                    },
+                    {
+                        "name": "ESP32",
+                        "label": "Microcontrôleur"
+                    },
+                    {
+                        "name": "Circuit électronique",
+                        "label": "Soudures, câblages."
+                    }
+                ]
+            },
+            {
+                "title": "Forum Normandie",
+                "category": "Application WEB",
+                "image": "blog_wb.png",
+                "demoLink": "https://blog.thomas-fouquet.fr",
+                "githubLink": "https://github.com/weyrito/blog-normandie",
+                "description": "Développé lors du cours Symfony PHP, Forum Normandie est un forum de discussion sur la région Normandie.",
+                "technologies": [
+                    {
+                        "name": "Symfony",
+                        "label": "Langage de programmation"
+                    },
+                    {
+                        "name": "PHP",
+                        "label": "Langage de programmation"
+                    },
+                    {
+                        "name": "Bootstrap",
+                        "label": "Framework CSS"
+                    },
+                    {
+                        "name": "MySQL",
+                        "label": "Base de données qui stocke les articles, les commentaires et les utilisateurs."
+                    }
+                ]
+            },
+            {
+                "title": "Portfolio",
+                "category": "Application WEB",
+                "description": "Hébergé sur un Raspberry Pi , ce portfolio est un site web de présentation de mes projets et compétences.",
+                "image": "portfolio_wb.png",
+                "githubLink": "http://github.com/weyrito/portfolio",
+                "technologies": [
+                    {
+                        "name": "Next.js",
+                        "label": "Framework React"
+                    },
+                    {
+                        "name": "Raspberry Pi",
+                        "label": "Utilisé comme serveur web et base de données" 
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "label": "Framework CSS"
+                    },
+                    {
+                        "name": "Apache",
+                        "label": "Serveur web"
+                    }
+
+                ]
+            },
+            {
+                "title": "Straweb",
+                "category": "Application WEB",
+                "description": "Straway est une startup dont l'ambition est de végétaliser les foyers à travers la vente de plantes d'intérieur. J'ai participé au développement du site web de l'entreprise.",
+                "image": "straway_wb.png",
+                "demoLink": "https://www.straway.fr",
+                "technologies": [
+                    {
+                        "name": "React.js",
+                        "label": "Langage de programmation"
+                    },
+                    {
+                        "name": "Next.js",
+                        "label": "Framework React"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "label": "Framework CSS"
+                    },
+                    {
+                        "name": "Stripe API",
+                        "label": "API de paiement en ligne"
+                    },
+                    {
+                        "name": "Firebase Auth",
+                        "label": "Authentification des utilisateurs"
+                    },
+                    {
+                        "name": "PostgreSQL",
+                        "label": "Base de données"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "skills": {
+    "technical": [
+      {
+        "name": "HTML/CSS",
+        "level": 90,
+        "color": "primary"
+      },
+      {
+        "name": "Framework CSS (Tailwind, Bootstrap)",
+        "level": 75,
+        "color": "secondary"
+      },
+      {
+        "name": "Javascript (React, Next, Node)",
+        "level": 70,
+        "color": "success"
+      },
+      {
+        "name": "Base de données (MySQL, PostgreSQL)",
+        "level": 65,
+        "color": "primary"
+      },
+      {
+        "name": "TypeScript",
+        "level": 60,
+        "color": "secondary"
+      }
+    ],
+    "soft": [
+      "Travail d'équipe",
+      "Communication",
+      "Autonomie",
+      "Résolution de problèmes",
+      "Adaptabilité",
+      "Organisation"
+    ],
+    "languages": [
+      {
+        "name": "Français",
+        "level": "Natif"
+      },
+      {
+        "name": "Anglais",
+        "level": "Professionnel"
+      },
+      {
+        "name": "Espagnol",
+        "level": "Bilingue"
+      }
+    ]
+  }
+}

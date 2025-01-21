@@ -1,0 +1,80 @@
+{"experiences": {
+    "experiences": [
+      {
+        "position": "Employé polyvalent",
+        "company": "Biocoop",
+        "period": "Août 2024 - Aujourd'hui",
+        "description": "Je travaille chez Biocoop en tant qu'employé polyvalent. Je m'occupe de l'accueil des clients, de l'encaissement et de la remise en rayon. Je travaille en équipe, souvent en autonomie et je dois être capable de gérer des périodes de forte affluence. Je suis capable de faire plusieurs choses à la fois, notamment lors de l'encaissement où je dois être attentif à ce qui se passe autour de moi pour éviter les vols, tout en restant concentré sur ce que je fais.", 
+        "logo": "https://www.ladn.eu/wp-content/uploads/2018/09/Biocoop.jpg",
+        "technologies": [
+          {
+            "name": "Travail en équipe",
+            "label": "Élément essentiel pour le bon fonctionnement du magasin"
+          },
+          {
+            "name": "Autonomie",
+            "label": "Je dois être capable de gérer des périodes de forte affluence en autonomie"
+          },
+          {
+            "name": "Gestion du stress",
+            "label": "Je dois être capable de gérer des périodes de forte affluence en autonomie"
+          },
+          {
+            "name": "Service client",
+            "label": "Je dois être capable de gérer des périodes de forte affluence en autonomie"
+          }
+
+        ]
+      },
+      {
+        "position": "Développeur WEB full-stack",
+        "company": "Straway",
+        "companyUrl": "https://www.straway.fr/",
+        "logo": "https://www.straway.fr/_next/static/media/Horizontal-Logo.c950e358.svg",
+        "period": "Juillet - Aout 2024",
+        "description": "Stage de première année dans une startup dont l'ambition est de végétaliser les foyers à travers la vente de plantes d'intérieur. J'ai participé au développement du site web de l'entreprise notamment en faisant la transition de React.js à Next.js et en intégrant l'API Stripe pour les paiements.",
+        "technologies": [
+          {
+            "name": "Trello",
+            "label": "Gestion de projet, suivi des tâches"
+          }
+
+        ]
+      },
+      {"position": "Serveur - Plongeur - Commis",
+        "company": "Restaurant l'Espiguette",
+        "period": "Juillet 2023 - Aout 2023",
+        "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F0d%2F17%2F06%2F66%2Fphoto1jpg.jpg&f=1&nofb=1&ipt=7ba7fd31d709ee53dcc6dbf1465a7295d63597f96837c3a14a6a2ac3359a26a2&ipo=images",
+        "description": "J'ai travaillé dans le restaurant l'Espiguette afin de financer un (deuxième) voyage au Mexique. J'ai pu apprendre à travailler en équipe, à gérer le stress et à être autonome.",
+        "technologies": [
+          {
+            "name": "Service en salle",
+            "label": ""
+          },
+          {
+            "name": "Plonge",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "position": "Étudiant d'échange au Mexique 🇲🇽",
+        "company": "Rotary International",
+        "logo": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FRotary_International_logo.png&f=1&nofb=1&ipt=182a045147275eb3980cc27c611e6b5c4ed2d7a6b77d111defa97032c4344325&ipo=images",
+        "companyUrl": "https://entreprise1.com",
+        "period": "Août 2022 - Juin 2023",
+        "description": "J'ai eu la chance de partir un an au Mexique pour étudier dans un lycée local. J'ai pu découvrir une nouvelle culture, apprendre une nouvelle langue et rencontrer des gens formidables.",
+        "technologies": [
+          {
+            "name": "Espagnol",
+            "label": "Appris en immersion"
+          },
+          {
+            "name": "Anglais",
+            "label": "Appris en cotoyant des étudiants du monde entier"
+          }
+        ]
+      }
+    ]
+  }
+}
