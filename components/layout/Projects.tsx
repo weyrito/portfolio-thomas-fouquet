@@ -7,7 +7,7 @@ import { Link } from "@heroui/link";
 import { Chip } from "@heroui/chip";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 
-import Card from "@/components/ui/card";
+import Card from "@/components/ui/Card";
 import { title } from "@/components/ui/primitives";
 import projets from "@/data/projets.json";
 import {

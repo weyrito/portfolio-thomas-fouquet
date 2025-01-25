@@ -16,8 +16,10 @@ import clsx from "clsx";
 import { useState } from "react";
 import { Github, Linkedin } from "lucide-react";
 
-import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/features/themeSwitch";
+import { ThemeSwitch } from "@/components/features/ThemeSwitch";
+
+const githubLink = "https://github.com/weyrito";
+const linkedInLink = "https://www.linkedin.com/in/thomas-fouquet/";
 
 const menuItems = [
   { label: "A propos", href: "#about" },
@@ -44,8 +46,8 @@ const handleAnchorClick = (
 
 export const NavbarComponent = () => {
   const [activeSection] = useState<string>("");
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isMobile, setIsMobile] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   React.useEffect(() => {
     const checkMobile = () => {
@@ -103,10 +105,10 @@ export const NavbarComponent = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-4">
-          <Link isExternal href={siteConfig.links.github}>
+          <Link isExternal href={githubLink}>
             <Github className="text-default-500 hover:text-primary" />
           </Link>
-          <Link isExternal href={siteConfig.links.linkedIn}>
+          <Link isExternal href={linkedInLink}>
             <Linkedin className="text-default-500 hover:text-primary" />
           </Link>
           <ThemeSwitch />
@@ -148,10 +150,10 @@ export const NavbarComponent = () => {
           ))}
           <NavbarMenuItem>
             <div className="flex gap-4 mt-4">
-              <Link isExternal href={siteConfig.links.github}>
+              <Link isExternal href={githubLink}>
                 <Github className="text-default-500 hover:text-primary" />
               </Link>
-              <Link isExternal href={siteConfig.links.linkedIn}>
+              <Link isExternal href={linkedInLink}>
                 <Linkedin className="text-default-500 hover:text-primary" />
               </Link>
             </div>

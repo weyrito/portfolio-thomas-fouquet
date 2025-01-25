@@ -1,18 +1,15 @@
-/* eslint-disable prettier/prettier */
 "use client";
 import { Image } from "@heroui/image";
-import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
 import { useState, useEffect } from "react";
 
-import { useMediaQuery } from "@/components/features/useMediaQuery";
+import { useDeviceSizes} from "../features/DeviceSizes";
+
 import { subtitle } from "@/components/ui/primitives";
 export default function AboutMe() {
-  const isSmallDevice = useMediaQuery("(max-width: 768px)");
-  const isMediumDevice = useMediaQuery(
-    "(min-width: 769px) and (max-width: 992px)",
-  );
-  const isLargeDevice = useMediaQuery("(min-width: 993px)");
+  const { isSmallDevice, isMediumDevice, isLargeDevice } = useDeviceSizes();
+
+  
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const words = ["alternance", "opportunités", "aventures"];
@@ -102,16 +99,16 @@ export default function AboutMe() {
             <Link
               isExternal
               as={Link}
-              href="mailto:alternance@thomas-fouquet.fr"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-white font-medium transition-all duration-200 hover:bg-primary-600 hover:scale-105"
+              href="mailto:alternance@thomas-fouquet.fr"
             >
               Me contacter
             </Link>
             <Link
               as={Link}
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-secondary text-secondary font-medium transition-all duration-200 hover:bg-green-500 hover:border-none hover:text-white hover:scale-105"
               href="#projects"
               onClick={(e) => handleAnchorClick(e, "#projects")}
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-secondary text-secondary font-medium transition-all duration-200 hover:bg-green-500 hover:border-none hover:text-white hover:scale-105"
             >
               <p>Voir mes projets</p>
             </Link>

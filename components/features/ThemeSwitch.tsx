@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { SunFilledIcon, MoonFilledIcon } from "@/components/ui/icons";
+import { SunFilledIcon, MoonFilledIcon } from "@/components/ui/Icons";
 
 export function ThemeSwitch() {
   const [mounted, setMounted] = useState(false);

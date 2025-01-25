@@ -17,7 +17,7 @@ import projects from "@/data/projets.json";
 import skills from "@/data/skills.json";
 import { title } from "@/components/ui/primitives";
 import { skillsAnimations, springScrollConfig } from "@/config/animation";
-import Card from "@/components/ui/card";
+import Card from "@/components/ui/Card";
 
 const COLORS = [
   "#0088FE",

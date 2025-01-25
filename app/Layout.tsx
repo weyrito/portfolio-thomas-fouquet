@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Source_Code_Pro } from "next/font/google";
 import clsx from "clsx";
 
-import RootLayoutClient from "./layout-client";
+import RootLayoutClient from "./LayoutClient";
 
 import { fontSans } from "@/config/fonts";
 const sourceCodePro = Source_Code_Pro({

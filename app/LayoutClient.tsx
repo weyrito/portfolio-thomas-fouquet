@@ -7,7 +7,7 @@ import {
   ParallaxBannerLayer,
 } from "react-scroll-parallax";
 
-import { Providers } from "./providers";
+import { Providers } from "./Providers";
 
 export default function RootLayoutClient({
   children,
