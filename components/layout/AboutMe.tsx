@@ -106,7 +106,7 @@ export default function AboutMe() {
             </Link>
             <Link
               as={Link}
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-secondary text-secondary font-medium transition-all duration-200 hover:bg-green-500 hover:border-none hover:text-white hover:scale-105"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-secondary text-secondary font-medium transition-all duration-200 hover:bg-green-400 hover:border-transparent hover:text-white hover:scale-105"
               href="#projects"
               onClick={(e) => handleAnchorClick(e, "#projects")}
             >

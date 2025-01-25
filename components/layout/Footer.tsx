@@ -63,10 +63,6 @@ export default function Footer() {
           </span>
         </Snippet>
       </div>
-      <span className="mt-2 text-default-600 text-xs sm:text-sm md:text-base text-center">
-        Site web développé grâce à <span className="font-bold">Next.js</span> et{" "}
-        <span className="font-bold">HeroUI</span>
-      </span>
       <ToastContainer />{" "}
     </>
   );

@@ -1,4 +1,3 @@
-// app/layout-client.tsx
 "use client";
 import "@/styles/globals.css";
 import {
@@ -7,7 +6,7 @@ import {
   ParallaxBannerLayer,
 } from "react-scroll-parallax";
 
-import { Providers } from "./Providers";
+import { Providers } from "./providers";
 
 export default function RootLayoutClient({
   children,
